@@ -33,7 +33,7 @@ public class UpdateDataBuku {
                 stmt.setInt(4, 2024);
                 stmt.setString(5, "9786027654321");
                 stmt.setInt(6, 15);
-                stmt.setInt(7, 1); // Ganti dengan id_buku yang ingin diupdate
+                stmt.setInt(7, 2); // Ganti dengan id_buku yang ingin diupdate
 
                 int rowsUpdated = stmt.executeUpdate();
 
